@@ -59,7 +59,4 @@ inc # len # p;
 ; and returns `bool > A` function
 [ choose_one: bool > int = \> { 1 } ? \> { 0 };
 
-; A map operator `<#>` is used for looping
-[ incremented: int 4 = quad <#> \x > x + 1
-
 ```
