@@ -58,5 +58,4 @@ inc # len # p;
 ; Control expression is a binary `?` operator that takes two functions of `void > A`,
 ; and returns `bool > A` function
 [ choose_one: bool > int = \> { 1 } ? \> { 0 };
-
 ```
